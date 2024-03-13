@@ -1,8 +1,6 @@
 import React from "react";
-import Header from "../AboutPage/Header";
 import hero from "../../assets/5L/hero.jpg";
 import ContactPage from "../HomePage/contact/ContactSection";
-import Team from "../AboutPage/Team";
 import ProductsContent from "./ProductsContent";
 
 const Products = () => {
@@ -30,7 +28,6 @@ const Products = () => {
       </div>
 
       <ProductsContent />
-      {/* <Team /> */}
       <ContactPage />
     </section>
   );

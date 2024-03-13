@@ -40,10 +40,6 @@ const Contacts = () => {
       </div>
 
       <div className="contactUs relative w-full py-10 px-24" style={bg}>
-        {/* <div className="contact-title flex justify-center items-center text-3xl">
-          <h2 className="text-black font-bold uppercase pb-10">Contact Us</h2>
-        </div> */}
-
         <div className="contact-box relative grid gap-5 my-10 mx-0">
           <div className="contact form p-10 bg-stone-100 shadow-xl border-[2px] border-solid border-red-600">
             <h3 className="font-bold text-xl">Send a Message</h3>

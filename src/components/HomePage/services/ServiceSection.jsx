@@ -80,7 +80,6 @@ const ServiceSection = () => {
             data-aos-once="true"
             data-aos-delay="100"
           >
-            {/* <h4 className="text-base font-semibold text-white">Lorem ipsum</h4> */}
             <h2 className="text-3xl text-black font-semibold">
               <span className="text-white">Providing</span> High-Quality
               Services

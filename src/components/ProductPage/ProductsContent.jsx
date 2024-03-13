@@ -1,6 +1,6 @@
 import React from "react";
 import ref from "../../assets/Products/ref.png";
-import dvd from "../../assets/Products/dvd.jpg";
+import dvd from "../../assets/Products/dvd.png";
 import radio from "../../assets/Products/radio.webp";
 import small from "../../assets/Products/small.png";
 import ups from "../../assets/Products/UPS.png";
