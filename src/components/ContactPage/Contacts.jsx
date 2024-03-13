@@ -20,6 +20,10 @@ const Contacts = () => {
     backgroundAttachment: "fixed",
   };
 
+  const red = {
+    background: "#FF0000",
+  };
+
   const bg = {
     background: "#E7E5E4",
   };
@@ -35,22 +39,20 @@ const Contacts = () => {
         </h1>
       </div>
 
-      <div className="contactUs relative w-full py-10 px-24 bg-stone-100">
-        <div className="contact-title flex justify-center items-center text-3xl">
+      <div className="contactUs relative w-full py-10 px-24" style={bg}>
+        {/* <div className="contact-title flex justify-center items-center text-3xl">
           <h2 className="text-black font-bold uppercase pb-10">Contact Us</h2>
-        </div>
+        </div> */}
 
-        <div className="contact-box relative grid gap-5 mb-3">
-          <div className="contact form p-10 bg-stone-300 shadow-neutral-950">
-            <h3 className="text-red-600 font-bold text-xl">Send a Message</h3>
+        <div className="contact-box relative grid gap-5 my-10 mx-0">
+          <div className="contact form p-10 bg-stone-100 shadow-xl border-[2px] border-solid border-red-600">
+            <h3 className="font-bold text-xl">Send a Message</h3>
 
             <form action="" className="">
               <div className="formBox relative w-full">
                 <div className="row50 flex gap-5">
                   <div className="inputBox flex flex-col mb-3 w-1/2">
-                    <span className="text-red-600 mt-3 mb-1 font-medium">
-                      First name
-                    </span>
+                    <span className="mt-3 mb-1 font-medium">First name</span>
                     <input
                       type="text"
                       name=""
@@ -61,9 +63,7 @@ const Contacts = () => {
                   </div>
 
                   <div className="inputBox flex flex-col mb-3 w-1/2">
-                    <span className="text-red-600 mt-3 mb-1 font-medium">
-                      Last name
-                    </span>
+                    <span className="mt-3 mb-1 font-medium">Last name</span>
                     <input
                       type="text"
                       name=""
@@ -76,9 +76,7 @@ const Contacts = () => {
 
                 <div className="row50 flex gap-5">
                   <div className="inputBox flex flex-col mb-3 w-1/2">
-                    <span className="text-red-600 mt-3 mb-1 font-medium">
-                      Email
-                    </span>
+                    <span className="mt-3 mb-1 font-medium">Email</span>
                     <input
                       type="text"
                       name=""
@@ -89,9 +87,7 @@ const Contacts = () => {
                   </div>
 
                   <div className="inputBox flex flex-col mb-3 w-1/2">
-                    <span className="text-red-600 mt-3 mb-1 font-medium">
-                      Mobile
-                    </span>
+                    <span className="mt-3 mb-1 font-medium">Mobile</span>
                     <input
                       type="text"
                       name=""
@@ -104,7 +100,7 @@ const Contacts = () => {
 
                 <div className="row100">
                   <div className="inputBox mt-6">
-                    <span className="text-red-600">Message</span>
+                    <span>Message</span>
                     <textarea
                       placeholder="Write your message here..."
                       className="p-3  w-full text-sm outline-none border border-solid border-gray-900 resize-none min-h-56 mb-3 placeholder:text-gray-300"
@@ -117,7 +113,7 @@ const Contacts = () => {
                     <input
                       type="submit"
                       value="Send"
-                      className="bg-red-600 text-white border-none text-sm max-w-32 font-medium cursor-pointer py-3 px-4 rounded-md w-72 mt-5"
+                      className="bg-black text-white border-none text-sm max-w-32 font-medium cursor-pointer py-3 px-4 rounded-md w-72 mt-5"
                     />
                   </div>
                 </div>
@@ -125,33 +121,33 @@ const Contacts = () => {
             </form>
           </div>
 
-          <div className="contact info bg-stone-300 p-10 shadow-neutral-950">
-            <h3 className="text-red-600 font-bold text-xl">Contact Info</h3>
+          <div className="contact info bg-stone-100 p-10 shadow-xl border-[2px] border-solid border-red-600">
+            <h3 className="font-bold text-xl">Contact Info</h3>
             <div className="infoBox">
               <div className="flex items-center mb-3">
-                <span className="text-black min-w-10 h-10 bg-stone-500 flex justify-center items-center text-2xl mr-4 rounded-full">
+                <span className="text-black min-w-10 h-10 flex justify-center items-center text-2xl mr-4 rounded-full">
                   <FaMapMarkerAlt />
                 </span>
-                <p className="text-red-600 text-base">
+                <p className="text-base">
                   Lorem ipsum dolor, sit amet <br />
                   PH
                 </p>
               </div>
 
               <div className="flex items-center mb-3">
-                <span className="text-black min-w-10 h-10 bg-stone-500 flex justify-center items-center text-2xl mr-4 rounded-full">
+                <span className="text-black min-w-10 h-10 flex justify-center items-center text-2xl mr-4 rounded-full">
                   <FaEnvelope />
                 </span>
-                <a href="#" className="text-red-600 no-underline text-base">
+                <a href="#" className="no-underline text-base">
                   sampleEmail@gmail.com
                 </a>
               </div>
 
               <div className="flex items-center mb-3">
-                <span className="text-black min-w-10 h-10 bg-stone-500 flex justify-center items-center text-2xl mr-4 rounded-full">
+                <span className="text-black min-w-10 h-10 flex justify-center items-center text-2xl mr-4 rounded-full">
                   <FaPhoneAlt />
                 </span>
-                <a href="#" className="text-red-600 no-underline text-base">
+                <a href="#" className="no-underline text-base">
                   123-123-1234
                 </a>
               </div>
@@ -160,7 +156,7 @@ const Contacts = () => {
                 <li className="mr-4 list-none">
                   <a
                     href="#"
-                    className="text-stone-500 text-2xl hover:text-red-600"
+                    className="text-black text-2xl hover:text-red-600"
                   >
                     <FaFacebookSquare size={35} />
                   </a>
@@ -168,7 +164,7 @@ const Contacts = () => {
                 <li className="mr-4 list-none">
                   <a
                     href="#"
-                    className="text-stone-500 text-2xl hover:text-red-600"
+                    className="text-black text-2xl hover:text-red-600"
                   >
                     <FaTwitterSquare size={35} />
                   </a>
@@ -176,7 +172,7 @@ const Contacts = () => {
                 <li className="mr-4 list-none">
                   <a
                     href="#"
-                    className="text-stone-500 text-2xl hover:text-red-600"
+                    className="text-black text-2xl hover:text-red-600"
                   >
                     <FaInstagramSquare size={35} />
                   </a>
@@ -184,7 +180,7 @@ const Contacts = () => {
                 <li className="mr-4 list-none">
                   <a
                     href="#"
-                    className="text-stone-500 text-2xl hover:text-red-600"
+                    className="text-black text-2xl hover:text-red-600"
                   >
                     <FaGlobeAsia size={35} />
                   </a>
@@ -193,7 +189,7 @@ const Contacts = () => {
             </div>
           </div>
 
-          <div className="contact map p-0 bg-white shadow-neutral-950">
+          <div className="contact map p-0 bg-white shadow-xl border-[2px] border-solid border-red-600">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d662.143061630113!2d121.06078397321383!3d14.338243843836217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d713f7b6e5ad%3A0xeafcedaf1c936365!2s5L%20Solutions%20Main%20Office!5e0!3m2!1sen!2sph!4v1710119281740!5m2!1sen!2sph"
               className="a border-none w-full h-full"

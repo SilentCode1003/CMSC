@@ -25,29 +25,9 @@ const CoreValue = () => {
         {/* excellence */}
         <div className="core-container left-container left-0">
           <img
-            src={excellence}
-            alt="core value"
-            className="absolute w-56 -right-96 -top-1 z-10"
-          />
-          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
-            <h2 className="font-semibold text-2xl">Excellence</h2>
-            <p>
-              Each member brings their unique strengths and expertise to the
-              table, and is able to work effectively with other members to
-              create a high-performing unit. The team is characterized by a
-              shared sense of purpose and a commitment to working together
-              towards a common goal.
-            </p>
-            <span className="left-container-arrow h-0 w-0 absolute top-7 z-10 -right-4"></span>
-          </div>
-        </div>
-
-        {/* integrity */}
-        <div className="core-container right-container left-1/2">
-          <img
             src={integrity}
             alt="core value"
-            className="absolute w-56 -right-5 top-1 z-10 -left-96"
+            className="absolute w-56 -right-96 -top-1 z-10"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Integrity</h2>
@@ -57,6 +37,26 @@ const CoreValue = () => {
               the ideas and perspectives of all team members, and ensuring that
               everyone has an equal opportunity to contribute to the team’s
               work.
+            </p>
+            <span className="left-container-arrow h-0 w-0 absolute top-7 z-10 -right-4"></span>
+          </div>
+        </div>
+
+        {/* integrity */}
+        <div className="core-container right-container left-1/2">
+          <img
+            src={excellence}
+            alt="core value"
+            className="absolute w-56 -right-5 top-1 z-10 -left-96"
+          />
+          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
+            <h2 className="font-semibold text-2xl">Excellence</h2>
+            <p>
+              Each member brings their unique strengths and expertise to the
+              table, and is able to work effectively with other members to
+              create a high-performing unit. The team is characterized by a
+              shared sense of purpose and a commitment to working together
+              towards a common goal.
             </p>
             <span className="right-container-arrow h-0 w-0 absolute top-7 z-10 -left-4"></span>
           </div>
