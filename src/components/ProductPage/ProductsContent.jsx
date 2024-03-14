@@ -13,7 +13,14 @@ const ProductsContent = () => {
       <div className="service-wrapper py-[5%] px-[8%]">
         <div className="service flex flex-col items-center">
           <div className="service-cards grid grid-cols-4 gap-24 mt-16">
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={ref}
                 alt=""
@@ -30,7 +37,14 @@ const ProductsContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={dvd}
                 alt=""
@@ -46,7 +60,14 @@ const ProductsContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={radio}
                 alt=""
@@ -62,7 +83,14 @@ const ProductsContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={small}
                 alt=""
@@ -79,7 +107,14 @@ const ProductsContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={ups}
                 alt=""
@@ -96,7 +131,14 @@ const ProductsContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={ups2}
                 alt=""
@@ -113,7 +155,14 @@ const ProductsContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105">
+            <div
+              className="card h-[480px] -mt-12 w-72 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl transition duration-300 hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
               <img
                 src={yellow}
                 alt=""

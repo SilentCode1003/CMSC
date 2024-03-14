@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.cjs";
 import ContactPage from "../HomePage/contact/ContactSection";
 import hero from "../../assets/5L/hero.jpg";
 import news from "../../assets/News/news-one.jpg";
@@ -18,18 +20,37 @@ const News = () => {
     background: "#E7E5E4",
   };
 
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <section className="w-full min-h-screen grid place-items-center" style={bg}>
+      {/* header */}
       <div
         className="header w-full px-4 md:px-8 lg:px-16 xl:px-20 pt-48 pb-16"
         style={styles}
       >
-        <h1 className="text-stone-200 text-7xl font-bold capitalize">
+        <h1
+          className="text-stone-200 text-5xl font-bold uppercase"
+          data-aos="fade-right"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="200"
+        >
           News & Articles
         </h1>
       </div>
 
-      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
+      {/* news 1 */}
+      <div
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="200"
+      >
         <div className="news-imgWrapper overflow-hidden">
           <img
             src={news}
@@ -59,7 +80,15 @@ const News = () => {
         </div>
       </div>
 
-      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
+      {/* news 2 */}
+      <div
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="200"
+      >
         <div className="news-imgWrapper overflow-hidden">
           <img
             src={news2}
@@ -89,7 +118,15 @@ const News = () => {
         </div>
       </div>
 
-      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
+      {/* news 3 */}
+      <div
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="200"
+      >
         <div className="news-imgWrapper overflow-hidden">
           <img
             src={news3}
@@ -119,6 +156,7 @@ const News = () => {
         </div>
       </div>
 
+      {/* footer */}
       <ContactPage />
     </section>
   );

@@ -42,6 +42,25 @@
   border-right: 15px solid red;
 }
 
+/* Contact us PAGE */
+.form {
+  grid-area: form;
+}
+
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+
+.contact-box {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "form info" "form map";
+}
+
 /* media-query */
 @media (max-width: 768px) {
   #hero_title {
@@ -94,7 +113,7 @@
 
   .text h5,
   .service-text h5 {
-    font-size: 32px;
+    font-size: 29px;
     letter-spacing: 1px;
   }
 
@@ -174,6 +193,11 @@
   .teams {
     max-width: 100%;
   }
+
+  .teams img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* SERVICES */
@@ -213,25 +237,6 @@
   .product-header {
     padding-bottom: 30px;
   }
-}
-
-/* Contact us PAGE */
-.form {
-  grid-area: form;
-}
-
-.info {
-  grid-area: info;
-}
-
-.map {
-  grid-area: map;
-}
-
-.contact-box {
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 5fr 4fr;
-  grid-template-areas: "form info" "form map";
 }
 
 /* media query Contact PAGE*/
@@ -325,15 +330,17 @@
   }
 
   .contentLeft .section-row .sectionImgWrapper {
-    height: 150px;
+    height: 200px;
   }
 
-  .contentRight .ssection-content h4 {
-    font-size: 18px;
+  .contentRight .section-content ul li {
+    margin-top: -5px;
+    font-size: 15px;
   }
 
   .contentRight .section-content h2 {
-    font-size: 30px;
+    margin: -20px 0px;
+    font-size: 25px;
   }
 }
 
