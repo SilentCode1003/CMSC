@@ -10,7 +10,7 @@ import ProductCard from "../products/ProductCard";
 
 const HomePage = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 0, 0.9)),url(${hero})`,
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.6), rgba(10, 0, 0, 0.9)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

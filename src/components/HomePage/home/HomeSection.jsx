@@ -18,16 +18,19 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
       <div className="align_center flex-col justify-center ">
         <h1
           id="hero_title"
-          className="text-4xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-7xl xl:font-medium text-white text-center font-bold tracking-wide"
+          className="text-4xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-6xl xl:font-medium text-white text-center font-medium tracking-wide"
           data-aos="fade-right"
           data-aos-duration="700"
           data-aos-easing="ease-in-out"
           data-aos-delay="500"
         >
-          <span className="text-yellow-600 uppercase"> {title} </span>
-          {title1}
+          <span className="uppercase font-bold" style={{ color: "#FF0000" }}>
+            {" "}
+            {title}{" "}
+          </span>
+          <span className="font-bold text-stone-300">{title1}</span>
           <br />
-          {title2}
+          <span className="text-stone-100">{title2}</span>
         </h1>
         <p
           id="hero_subtitle"

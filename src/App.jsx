@@ -8,11 +8,13 @@ import ServicePage from "./components/ServicePage/Services";
 import ProductPage from "./components/ProductPage/Products";
 import NewsPage from "./components/NewsPage/News";
 import ContactPage from "./components/ContactPage/Contacts";
+import ScrollToTop from "./RefreshStart/ScrollToTop";
 
 const App = () => {
   return (
     <div>
       <Nav />
+      <ScrollToTop />
       {/* Routing */}
       <Routes>
         <Route path="/" element={<HomePage />} />

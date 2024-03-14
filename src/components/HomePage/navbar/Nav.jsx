@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import logo from "../../../assets/5L/5L_logo-Red.png";
 
 const Nav = () => {
@@ -41,22 +42,22 @@ const Nav = () => {
       </h1>
       <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/services">Services</a>
+          <Link to="/services">Services</Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/products">Products</a>
+          <Link to="/products">Products</Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/news">News</a>
+          <Link to="/news">News</Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/contacts">Contact</a>
+          <Link to="/contacts">Contact</Link>
         </li>
       </ul>
       <div
@@ -73,22 +74,22 @@ const Nav = () => {
         style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/services">Services</a>
+          <Link to="/services">Services</Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/products">Products</a>
+          <Link to="/products">Products</Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/news">News</a>
+          <Link to="/news">News</Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/contacts">Contact</a>
+          <Link to="/contacts">Contact</Link>
         </li>
       </ul>
     </div>
