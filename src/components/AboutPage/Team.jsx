@@ -1,11 +1,17 @@
 import React from "react";
-import ContactPage from "../HomePage/contact/ContactSection";
 import profile from "../../assets/profile1.svg";
 
 const Team = () => {
   return (
     <div className="team-container bg-slate-100 text-center">
-      <div className="team-header pt-8 text-4xl m-auto leading-10">
+      <div
+        className="team-header pt-8 text-4xl m-auto leading-10"
+        data-aos="fade"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="400"
+      >
         <h1 className="font-bold uppercase">Meet our Core Team</h1>
       </div>
 

@@ -5,7 +5,13 @@ const About = () => {
   return (
     <div className="about w-full h-screen flex justify-center items-center relative bg-slate-100">
       <div className="content w-[1280px] max-w-[95%] my-0 mx-auto flex flex-wrap items-center justify-around relative">
-        <div className="text max-w-full w-[550px] py-0 px-2">
+        <div
+          className="text max-w-full w-[550px] py-0 px-2"
+          data-aos="fade-right"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="700"
+        >
           <h5 className=" text-3xl uppercase tracking-wider mb-5 font-bold">
             5l solutions supply & <br />
             allied service corp.
@@ -34,6 +40,10 @@ const About = () => {
           src={ceo}
           alt="mr. bagapuro"
           className="max-w-full h-[600px] w-[550px] rounded-2xl border-8 border-red-600"
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="700"
         />
       </div>
     </div>

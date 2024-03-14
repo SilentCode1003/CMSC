@@ -17,8 +17,16 @@ const CoreValue = () => {
   };
   return (
     <section className=" py-10" style={styles}>
+      {/* core div */}
       <div className="timeline relative max-w-[1250px] my-0 mx-auto ">
-        <h1 className="text-4xl text-white font-bold text-center justify-center pb-8">
+        <h1
+          className="text-4xl text-white font-bold text-center justify-center pb-8"
+          data-aos="fade"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+          data-aos-delay="200"
+        >
           Our Core Value
         </h1>
 
@@ -29,7 +37,14 @@ const CoreValue = () => {
             alt="core value"
             className="absolute w-56 -right-96 -top-1 z-10"
           />
-          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
+          <div
+            className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600"
+            data-aos="zoom-in-left"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <h2 className="font-semibold text-2xl">Integrity</h2>
             <p>
               Commitment to fairness and equity, and a willingness to treat all
@@ -49,7 +64,14 @@ const CoreValue = () => {
             alt="core value"
             className="absolute w-56 -right-5 top-1 z-10 -left-96"
           />
-          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
+          <div
+            className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600"
+            data-aos="zoom-in-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <h2 className="font-semibold text-2xl">Excellence</h2>
             <p>
               Each member brings their unique strengths and expertise to the
@@ -69,7 +91,14 @@ const CoreValue = () => {
             alt="core value"
             className="absolute w-56 -right-96 top-1 z-10"
           />
-          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
+          <div
+            className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600"
+            data-aos="zoom-in-left"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <h2 className="font-semibold text-2xl">Efficiency</h2>
             <p>
               Effective time management, streamlined workflows, and a focus on
@@ -88,7 +117,14 @@ const CoreValue = () => {
             alt="core value"
             className="absolute w-56 -right-5 top-1 z-10 -left-96"
           />
-          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
+          <div
+            className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600"
+            data-aos="zoom-in-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <h2 className="font-semibold text-2xl">Teamwork</h2>
             <p>
               Clear and open communication among team members, a willingness to
@@ -107,7 +143,14 @@ const CoreValue = () => {
             alt="core value"
             className="absolute w-56 -right-96 top-1 z-10"
           />
-          <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
+          <div
+            className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600"
+            data-aos="zoom-in-left"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <h2 className="font-semibold text-2xl">Proactive</h2>
             <p>
               Working together to identify potential problems and opportunities,
