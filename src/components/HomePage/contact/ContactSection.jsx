@@ -127,6 +127,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      {/* footer */}
       <div className="bottom">
         <center className="bg-stone-900 p-2 text-sm whitespace-nowrap">
           <span className="credit text-stone-500 inline-block">

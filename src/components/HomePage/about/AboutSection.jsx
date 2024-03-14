@@ -1,5 +1,6 @@
 import React from "react";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 import ceo from "../../../assets/5L/CEO.png";
 
 const AboutSection = () => {
@@ -18,6 +19,7 @@ const AboutSection = () => {
         style={bg}
       >
         <div className="content w-[1280px] max-w-[95%] my-0 mx-auto flex flex-wrap items-center justify-around relative">
+          {/* left div */}
           <div className="text max-w-full w-[550px] py-0 px-2">
             <h1
               className="capitalize font-bold text-2xl mb-1"
@@ -68,18 +70,22 @@ const AboutSection = () => {
             >
               Gil A. Bagapuro - <strong>CEO</strong>
             </p>
-            <button
-              type="button"
-              className="justify-center text-white items-center block my-auto mx-auto py-3 px-8 text-base font-bold no-underline rounded-lg bg-black"
-              data-aos="fade-right"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-              data-aos-once="true"
-              data-aos-delay="200"
-            >
-              Learn more about us
-            </button>
+            {/* button */}
+            <Link to={"/about"}>
+              <button
+                type="button"
+                className="justify-center text-white items-center block my-auto mx-auto py-3 px-8 text-base font-bold no-underline rounded-lg bg-black"
+                data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+                data-aos-delay="200"
+              >
+                Learn more about us
+              </button>
+            </Link>
           </div>
+          {/* right div */}
           <img
             src={ceo}
             alt="mr. bagapuro"

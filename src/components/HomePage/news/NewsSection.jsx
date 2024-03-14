@@ -1,5 +1,6 @@
 import React from "react";
 import { FaReadme } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import meet from "../../../assets/News/news-one.jpg";
 import team from "../../../assets/News/news-two.jpg";
 import strat from "../../../assets/News/news-three.jpg";
@@ -12,6 +13,7 @@ const NewsPage = () => {
 
   return (
     <section className="news-container w-auto my-2 mx-20">
+      {/* header */}
       <div
         className="news-title text-center my-12 mx-0"
         data-aos="zoom-in"
@@ -27,6 +29,7 @@ const NewsPage = () => {
       </div>
 
       <div className="column-card flex flex-wrap justify-between">
+        {/* news 1 */}
         <div className="news-card w-72 transition duration-300 hover:scale-105">
           <div
             className="panel p-3 rounded-xl shadow-xl"
@@ -50,6 +53,7 @@ const NewsPage = () => {
           </div>
         </div>
 
+        {/* news 2 */}
         <div className="news-card w-72 transition duration-300 hover:scale-105">
           <div
             className="panel p-3 rounded-xl shadow-xl"
@@ -73,6 +77,7 @@ const NewsPage = () => {
           </div>
         </div>
 
+        {/* news 3 */}
         <div className="news-card w-72 transition duration-300 hover:scale-105">
           <div
             className="panel p-3 rounded-xl shadow-xl"
@@ -96,6 +101,7 @@ const NewsPage = () => {
           </div>
         </div>
 
+        {/* news 4 */}
         <div className="news-card w-72 transition duration-300 hover:scale-105">
           <div
             className="panel p-3 rounded-xl shadow-xl"
@@ -119,17 +125,21 @@ const NewsPage = () => {
           </div>
         </div>
       </div>
-      <a
-        href="#"
-        className="allbtn block w-2/12 my-10 mx-auto bg-black text-center text-white p-3 no-underline rounded-lg font-bold"
-        data-aos="zoom-in"
-        data-aos-duration="300"
-        data-aos-easing="ease-in"
-        data-aos-once="true"
-        data-aos-delay="300"
-      >
-        Read more
-      </a>
+
+      {/* button */}
+      <Link to="/news">
+        <a
+          href="#"
+          className="allbtn block w-2/12 my-10 mx-auto bg-black text-center text-white p-3 no-underline rounded-lg font-bold"
+          data-aos="zoom-in"
+          data-aos-duration="300"
+          data-aos-easing="ease-in"
+          data-aos-once="true"
+          data-aos-delay="300"
+        >
+          Read more
+        </a>
+      </Link>
     </section>
   );
 };

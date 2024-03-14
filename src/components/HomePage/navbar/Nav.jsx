@@ -65,10 +65,11 @@ const Nav = () => {
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
+      {/* linking responsive */}
       <ul
-        className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-opacity ${
-          nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
-        } uppercase cursor-pointer text-sm py-5 text-center`}
+        className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-max-height duration-300 ${
+          nav ? "max-h-screen" : "max-h-0"
+        } uppercase cursor-pointer text-sm py-5 text-center overflow-hidden`}
         style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
         <li className="p-4 hover:text-red-500 ease-in duration-300">
