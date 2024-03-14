@@ -17,16 +17,12 @@ const News = () => {
     backgroundAttachment: "fixed",
   };
 
-  const bg = {
-    background: "#E7E5E4",
-  };
-
   useEffect(() => {
     AOS.init();
   });
 
   return (
-    <section className="w-full min-h-screen grid place-items-center" style={bg}>
+    <section className="w-full min-h-screen grid place-items-center bg-slate-100">
       {/* header */}
       <div
         className="header w-full px-4 md:px-8 lg:px-16 xl:px-20 pt-48 pb-16"
