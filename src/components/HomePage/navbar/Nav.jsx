@@ -6,8 +6,12 @@ import logo from "../../../assets/5L/5L_logo-Red.png";
 const Nav = () => {
   const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
+  const handleNavToggle = () => {
     setNav(!nav);
+  };
+
+  const closeNavMenu = () => {
+    setNav(false);
   };
 
   useEffect(() => {
@@ -42,26 +46,38 @@ const Nav = () => {
       </h1>
       <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={closeNavMenu}>
+            Home
+          </Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={closeNavMenu}>
+            About
+          </Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <Link to="/services">Services</Link>
+          <Link to="/services" onClick={closeNavMenu}>
+            Services
+          </Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <Link to="/products">Products</Link>
+          <Link to="/products" onClick={closeNavMenu}>
+            Products
+          </Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <Link to="/news">News</Link>
+          <Link to="/news" onClick={closeNavMenu}>
+            News
+          </Link>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <Link to="/contacts">Contact</Link>
+          <Link to="/contacts" onClick={closeNavMenu}>
+            Contact
+          </Link>
         </li>
       </ul>
       <div
-        onClick={handleNav}
+        onClick={handleNavToggle}
         className="block md:hidden h-20 pt-7 mx-5 cursor-pointer"
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -74,22 +90,34 @@ const Nav = () => {
         style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={closeNavMenu}>
+            Home
+          </Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={closeNavMenu}>
+            About
+          </Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <Link to="/services">Services</Link>
+          <Link to="/services" onClick={closeNavMenu}>
+            Services
+          </Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <Link to="/products">Products</Link>
+          <Link to="/products" onClick={closeNavMenu}>
+            Products
+          </Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <Link to="/news">News</Link>
+          <Link to="/news" onClick={closeNavMenu}>
+            News
+          </Link>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <Link to="/contacts">Contact</Link>
+          <Link to="/contacts" onClick={closeNavMenu}>
+            Contact
+          </Link>
         </li>
       </ul>
     </div>

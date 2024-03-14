@@ -106,13 +106,12 @@ const ServiceSection = ({
             </ul>
 
             {/* button */}
-            <Link to="/services">
-              <a
-                href="#"
-                className="text-base font-bold inline-block no-underline tracking-normal py-3 px-8 text-black rounded-lg select-none bg-slate-200"
-              >
-                {button}
-              </a>
+
+            <Link
+              to="/services"
+              className="button text-base font-bold inline-block no-underline tracking-normal py-3 px-8 text-black rounded-lg select-none bg-slate-200"
+            >
+              {button}
             </Link>
           </div>
         </div>

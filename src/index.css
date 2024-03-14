@@ -234,6 +234,11 @@
     margin-top: 5px;
   }
 
+  .subproduct-container button {
+    font-size: 13px;
+    padding: 7px 15px;
+  }
+
   .product-header {
     padding-bottom: 30px;
   }
@@ -273,6 +278,14 @@
 
 /* NEWS SECTION */
 @media screen and (max-width: 1024px) {
+  .news-title h1 {
+    font-size: 27px;
+  }
+
+  .news-title h3 {
+    font-size: 22px;
+  }
+
   .news-card {
     width: 45%;
     margin-bottom: 30px;
@@ -323,6 +336,15 @@
 @media (max-width: 768px) {
   .section-container {
     grid-template-columns: 1fr;
+  }
+
+  .section-content {
+    align-items: center;
+  }
+
+  .section-content .button {
+    font-size: 13px;
+    padding: 7px 15px;
   }
 
   .section-content .section-row {
