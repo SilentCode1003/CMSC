@@ -10,7 +10,7 @@ const ServiceContent = () => {
           <div className="service-cards grid grid-cols-3 gap-24 mt-12">
             {/* service 1 */}
             <div
-              className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -34,7 +34,7 @@ const ServiceContent = () => {
 
             {/* service 2 */}
             <div
-              className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -57,7 +57,7 @@ const ServiceContent = () => {
 
             {/* service 3 */}
             <div
-              className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -80,7 +80,7 @@ const ServiceContent = () => {
 
             {/* service 4 */}
             <div
-              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -103,7 +103,7 @@ const ServiceContent = () => {
 
             {/* service 5 */}
             <div
-              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -126,7 +126,7 @@ const ServiceContent = () => {
 
             {/* service 6 */}
             <div
-              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -149,7 +149,7 @@ const ServiceContent = () => {
 
             {/* service 7 */}
             <div
-              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -173,7 +173,7 @@ const ServiceContent = () => {
 
             {/* service 8 */}
             <div
-              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -197,7 +197,7 @@ const ServiceContent = () => {
 
             {/* service 9 */}
             <div
-              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl"
+              className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"

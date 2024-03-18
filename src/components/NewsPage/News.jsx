@@ -41,7 +41,7 @@ const News = () => {
 
       {/* news 1 */}
       <div
-        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[3px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
@@ -79,7 +79,7 @@ const News = () => {
 
       {/* news 2 */}
       <div
-        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[3px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
@@ -117,7 +117,7 @@ const News = () => {
 
       {/* news 3 */}
       <div
-        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[3px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
@@ -155,7 +155,7 @@ const News = () => {
 
       {/* news 4 */}
       <div
-        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
+        className="news-row m-8 w-4/5 max-w-[1170px] grid border-[3px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
