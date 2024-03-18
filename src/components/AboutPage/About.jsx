@@ -9,7 +9,8 @@ const About = () => {
           className="text max-w-full w-[550px] py-0 px-2"
           data-aos="fade-right"
           data-aos-duration="700"
-          data-aos-easing="ease-in-out"
+          data-aos-easing="ease-in"
+          data-aos-once="true"
           data-aos-delay="700"
         >
           <h5 className=" text-3xl uppercase tracking-wider mb-5 font-bold">
@@ -42,7 +43,8 @@ const About = () => {
           className="max-w-full h-[600px] w-[550px] rounded-2xl border-8 border-red-600"
           data-aos="fade-left"
           data-aos-duration="700"
-          data-aos-easing="ease-in-out"
+          data-aos-easing="ease-in"
+          data-aos-once="true"
           data-aos-delay="700"
         />
       </div>

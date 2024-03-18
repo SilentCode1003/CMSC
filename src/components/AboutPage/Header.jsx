@@ -23,6 +23,7 @@ const Header = () => {
   useEffect(() => {
     AOS.init();
   });
+
   return (
     <section className="" style={bg}>
       {/* about header */}

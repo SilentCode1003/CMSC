@@ -30,7 +30,7 @@ const ServiceSection = ({
               <img
                 src={img1}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                className="w-full h-full object-cover select-none border-[2px] border-solid rounded-xl border-stone-200"
                 data-aos="fade"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -44,7 +44,7 @@ const ServiceSection = ({
               <img
                 src={img2}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                className="w-full h-full object-cover select-none border-[2px] border-solid rounded-xl border-stone-200"
                 data-aos="fade"
                 data-aos-duration="500"
                 data-aos-easing="ease-in"
@@ -58,7 +58,7 @@ const ServiceSection = ({
               <img
                 src={img3}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                className="w-full h-full object-cover select-none border-[2px] border-solid rounded-xl border-stone-200"
                 data-aos="fade"
                 data-aos-duration="500"
                 data-aos-easing="ease-in"
@@ -72,7 +72,7 @@ const ServiceSection = ({
               <img
                 src={img4}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                className="w-full h-full object-cover select-none border-[2px] border-solid rounded-xl border-stone-200"
                 data-aos="fade"
                 data-aos-duration="500"
                 data-aos-easing="ease-in"

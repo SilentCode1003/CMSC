@@ -16,7 +16,7 @@ const Team = () => {
       </div>
 
       <div className="sub-container max-w-7xl m-auto py-10 px-0 flex flex-wrap justify-center">
-        <div className="teams shadow-xl my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-black rounded-xl transition duration-300 box-border hover:bg-slate-500 hover:rounded-xl">
+        <div className="teams shadow-xl my-14 mx-5 p-6 max-w-[30%] cursor-pointer border-[3px] border-solid border-black rounded-xl transition duration-300 box-border hover:scale-110 hover:rounded-xl">
           <img src={profile} alt="" className=" w-36 h-36" />
           <div className="name p-3 font-bold text-base uppercase">
             name here
@@ -24,7 +24,7 @@ const Team = () => {
           <div className="desig my-2 mx-0">position</div>
         </div>
 
-        <div className="teams shadow-xl my-10 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-black rounded-xl transition duration-300 box-border hover:bg-slate-500 hover:rounded-xl">
+        <div className="teams shadow-xl my-10 mx-5 p-6 max-w-[30%] cursor-pointer border-[3px] border-solid border-black rounded-xl transition duration-300 box-border hover:scale-110 hover:rounded-xl">
           <img src={profile} alt="" className=" w-40 h-40" />
           <div className="name p-3 font-bold text-base uppercase">
             name here
@@ -32,7 +32,7 @@ const Team = () => {
           <div className="desig my-2 mx-0">position</div>
         </div>
 
-        <div className="teams shadow-xl my-4 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-black rounded-xl transition duration-300 box-border hover:bg-slate-500 hover:rounded-xl">
+        <div className="teams shadow-xl my-4 mx-5 p-6 max-w-[30%] cursor-pointer border-[3px] border-solid border-black rounded-xl transition duration-300 box-border hover:scale-110 hover:rounded-xl">
           <img src={profile} alt="" className=" w-44 h-44" />
           <div className="name p-3 font-bold text-base uppercase">
             name here
@@ -40,7 +40,7 @@ const Team = () => {
           <div className="desig my-2 mx-0">position</div>
         </div>
 
-        <div className="teams shadow-xl my-10 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-black rounded-xl transition duration-300 box-border hover:bg-slate-500 hover:rounded-xl">
+        <div className="teams shadow-xl my-10 mx-5 p-6 max-w-[30%] cursor-pointer border-[3px] border-solid border-black rounded-xl transition duration-300 box-border hover:scale-110 hover:rounded-xl">
           <img src={profile} alt="" className=" w-40 h-40" />
           <div className="name p-3 font-bold text-base uppercase">
             name here
@@ -48,7 +48,7 @@ const Team = () => {
           <div className="desig my-2 mx-0">position</div>
         </div>
 
-        <div className="teams shadow-xl my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-black rounded-xl transition duration-300 box-border hover:bg-slate-500 hover:rounded-xl">
+        <div className="teams shadow-xl my-14 mx-5 p-6 max-w-[30%] cursor-pointer border-[3px] border-solid border-black rounded-xl transition duration-300 box-border hover:scale-110 hover:rounded-xl">
           <img src={profile} alt="" className=" w-36 h-36" />
           <div className="name p-3 font-bold text-base uppercase">
             name here

@@ -89,7 +89,7 @@ const AboutSection = () => {
           <img
             src={ceo}
             alt="mr. bagapuro"
-            className="max-w-full h-[500px] w-[500px] rounded-2xl border-[2px] border-red-600 transition duration-300 hover:scale-105"
+            className="max-w-full h-[500px] w-[500px] rounded-2xl border-[3px] border-red-600 transition duration-300 hover:scale-105"
             data-aos="fade-left"
             data-aos-duration="500"
             data-aos-easing="ease-in-out"

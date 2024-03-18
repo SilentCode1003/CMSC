@@ -33,7 +33,7 @@ const PartnerCard = () => {
         <div className="service-cards grid grid-cols-3 gap-24 my-10 mx-24">
           {/* partner 1 */}
           <div
-            className="card h-auto w-[auto] py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl"
+            className="card h-auto w-[auto] py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
             data-aos="flip-right"
             data-aos-duration="300"
             data-aos-easing="ease-in"
@@ -49,7 +49,7 @@ const PartnerCard = () => {
 
           {/* partner 2 */}
           <div
-            className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl"
+            className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
             data-aos="flip-right"
             data-aos-duration="300"
             data-aos-easing="ease-in"
@@ -65,7 +65,7 @@ const PartnerCard = () => {
 
           {/* partner 3 */}
           <div
-            className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl"
+            className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
             data-aos="flip-right"
             data-aos-duration="300"
             data-aos-easing="ease-in"
