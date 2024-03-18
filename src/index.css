@@ -95,8 +95,8 @@
 
   .about .content img,
   .service .service-content img {
-    height: 450px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     margin-bottom: 50px;
   }
 
@@ -113,24 +113,24 @@
 
   .text h5,
   .service-text h5 {
-    font-size: 29px;
+    font-size: 24px;
     letter-spacing: 1px;
   }
 
   .text p,
   .service-text p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .text button,
   .service-text button {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .text h1 {
     margin: -10px 0;
-    font-size: 1.5rem;
+    font-size: 22px;
     line-height: 4rem;
   }
 }
@@ -250,12 +250,17 @@
   }
 
   .subproduct-container button {
-    font-size: 13px;
-    padding: 7px 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 10px 15px;
   }
 
   .product-header {
     padding-bottom: 30px;
+  }
+
+  .product-header h1 {
+    font-size: 30px;
   }
 }
 
@@ -306,7 +311,8 @@
     margin-bottom: 30px;
   }
   a.allbtn {
-    width: 20%;
+    width: 10%;
+    font-size: small;
   }
 }
 
@@ -358,7 +364,7 @@
   }
 
   .section-content .button {
-    font-size: 13px;
+    font-size: 12px;
     padding: 7px 15px;
   }
 
@@ -372,12 +378,13 @@
 
   .contentRight .section-content ul li {
     margin-top: -5px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .contentRight .section-content h2 {
+    float: left;
     margin: -20px 0px;
-    font-size: 25px;
+    font-size: 24px;
   }
 }
 
