@@ -9,6 +9,7 @@ import ProductPage from "./components/ProductPage/Products";
 import NewsPage from "./components/NewsPage/News";
 import ContactPage from "./components/ContactPage/Contacts";
 import ScrollToTop from "./RefreshStart/ScrollToTop";
+import PrivacyPolicy from "./components/PrivacyPolicyPage/privacypolicy";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/products" element={<ProductPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/contacts" element={<ContactPage />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
       </Routes>
     </div>
   );
